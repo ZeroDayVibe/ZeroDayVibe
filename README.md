@@ -15,11 +15,11 @@
         .social-icons svg:hover { fill: #fff; transform: scale(1.1); }
 
         /* Navbar */
-        nav { background: #0a192f; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #00ff41; position: sticky; top: 0; z-index: 1000; }
+        nav { background: #0a192f; padding: 20px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #00ff41; position: sticky; top: 0; z-index: 1000; }
         .nav-left { display: flex; align-items: center; gap: 40px; }
         
         /* Logo Size Modified */
-        .logo { height: 90px; width: auto; }
+        .logo { height: 150px; width: auto; }
         
         .wa-btn { background: transparent; color: #fff; border: 2px solid #fff; padding: 8px 16px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: 0.3s; }
         .wa-btn:hover { background: #00ff41; color: #000; border-color: #00ff41; }
