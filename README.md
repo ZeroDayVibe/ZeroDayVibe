@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="google-site-verification" content="prYhdLLILZVNYYb--sf_d6wRTi65IzqA63WGdCYOClk" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZeroDayVibe | Expert Cybersecurity Services</title>
