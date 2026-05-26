@@ -1,16 +1,133 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroDayVibe | Expert Cybersecurity Services</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background-color: #050d1a; color: #fff; margin: 0; line-height: 1.6; }
+        
+        /* Top Bar */
+        .top-bar { background: #00ff41; padding: 8px 20px; display: flex; justify-content: space-between; align-items: center; color: #000; font-weight: bold; }
+        .contact-info { display: flex; gap: 20px; font-size: 13px; }
+        .social-icons { display: flex; gap: 12px; align-items: center; }
+        .social-icons svg { width: 16px; height: 16px; fill: #000; transition: 0.3s; }
+        .social-icons svg:hover { fill: #fff; transform: scale(1.1); }
 
-<!--
-**ZeroDayVibe/ZeroDayVibe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+        /* Navbar */
+        nav { background: #0a192f; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #00ff41; position: sticky; top: 0; z-index: 1000; }
+        .nav-left { display: flex; align-items: center; gap: 40px; }
+        
+        /* Logo Size Modified */
+        .logo { height: 90px; width: auto; }
+        
+        .wa-btn { background: transparent; color: #fff; border: 2px solid #fff; padding: 8px 16px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .wa-btn:hover { background: #00ff41; color: #000; border-color: #00ff41; }
+        .menu a { color: #fff; text-decoration: none; margin-left: 20px; font-weight: 500; }
 
-Here are some ideas to get you started:
+        /* General Sections */
+        .hero { background: #0a192f; padding: 80px 20px; text-align: center; }
+        .section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+        h1, h2 { color: #00ff41; }
+        
+        /* About Section */
+        .about-content { background: #0a192f; padding: 40px; border-radius: 15px; border: 1px solid #1a3a5f; text-align: center; }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        /* Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
+        .card { background: #0a192f; padding: 20px; border-radius: 8px; border-left: 3px solid #00ff41; text-align: center; }
+        
+        /* Contact Form */
+        .contact-box { background: #0a192f; padding: 30px; border-radius: 10px; border: 1px solid #1a3a5f; }
+        input, textarea { width: 100%; padding: 12px; margin: 10px 0; background: #050d1a; border: 1px solid #1a3a5f; color: #fff; border-radius: 5px; box-sizing: border-box; }
+        button { background: #00ff41; color: #000; padding: 15px; width: 100%; font-weight: bold; cursor: pointer; border: none; border-radius: 5px; }
+        
+        /* Footer Details */
+        .footer-details { margin-top: 30px; padding-top: 20px; border-top: 1px solid #1a3a5f; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="contact-info">
+        <span>📞 +8801804512108</span>
+        <span>✉️ zerodayvibe@gmail.com</span>
+        <span>📍 Khulna-9100, Bangladesh</span>
+    </div>
+    <div class="social-icons">
+        <a href="https://x.com/ZeroDayVibe" target="_blank"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231z"/></svg></a>
+        <a href="https://www.linkedin.com/in/zerodayvibe" target="_blank"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z"/></svg></a>
+        <a href="https://www.facebook.com/profile.php?id=61590434639473" target="_blank"><svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+        <a href="https://t.me/ZeroDayVibe" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.667 8.356c-.158 1.838-.934 6.554-1.328 8.685-.164.887-.492 1.185-.808 1.213-.687.062-1.206-.452-1.873-.896-1.045-.688-1.638-1.115-2.657-1.789-1.173-.775-.413-1.201.256-1.895.176-.182 3.235-2.966 3.295-3.22.008-.035.016-.163-.058-.23-.075-.067-.184-.044-.264-.026-.112.025-1.893 1.205-5.341 3.536-.505.348-.962.518-1.371.509-.452-.01-1.32-.255-1.968-.466-.795-.258-1.425-.395-1.371-.835.028-.23.336-.466.924-.712 3.623-1.571 6.046-2.615 7.268-3.131 3.46-1.464 4.175-1.714 4.646-1.723.103-.002.333.024.482.148.125.105.158.257.172.357.016.113.018.358.003.547z"/></svg></a>
+        <a href="https://wa.me/8801804512108" target="_blank"><svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.591 5.52 0 10.036-4.516 10.036-10.035 0-5.52-4.516-10.036-10.037-10.036-5.52 0-10.036 4.516-10.036 10.036 0 2.072.615 4.084 1.782 5.828l-.744 2.716 2.809-.735z"/></svg></a>
+    </div>
+</div>
+
+<nav>
+    <div class="nav-left">
+        <img src="logo.png" alt="Logo" class="logo">
+        <a href="https://wa.me/8801804512108" class="wa-btn" target="_blank">Send Message 💬</a>
+    </div>
+    <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div id="home" class="hero">
+    <h1>Welcome to ZeroDayVibe</h1>
+    <p>Identify and eliminate real security risks.</p>
+</div>
+
+<div id="about" class="section">
+    <div class="about-content">
+        <h2>About ZeroDayVibe</h2>
+        <p>ZeroDayVibe is a professional cybersecurity service provider. We specialize in penetration testing, vulnerability assessments, and comprehensive security audits to help businesses protect their digital infrastructure from cyber threats.</p>
+    </div>
+</div>
+
+<div id="services" class="section">
+    <h2>Our Professional Services</h2>
+    <div class="grid">
+        <div class="card"><h3>Penetration Testing</h3></div>
+        <div class="card"><h3>Vulnerability Assessment</h3></div>
+        <div class="card"><h3>WordPress Security</h3></div>
+        <div class="card"><h3>Security Audits</h3></div>
+        <div class="card"><h3>API Security</h3></div>
+        <div class="card"><h3>Cloud Security</h3></div>
+    </div>
+</div>
+
+<div id="portfolio" class="section">
+    <h2>Portfolio & Certifications</h2>
+    <div class="grid">
+        <div class="card"><h3>IBM Analyst</h3></div>
+        <div class="card"><h3>eJPT Certified</h3></div>
+        <div class="card"><h3>API Security</h3></div>
+    </div>
+</div>
+
+<div id="contact" class="section">
+    <h2>Get In Touch</h2>
+    <div class="contact-box">
+        <form action="https://formspree.io/f/mgoqnlkz" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="mobile" placeholder="Mobile No">
+            <textarea name="message" rows="5" placeholder="Tell us about your requirements..."></textarea>
+            <button type="submit">SEND MESSAGE</button>
+        </form>
+
+        <div class="footer-details">
+            <p>📞 Phone: +8801804512108</p>
+            <p>✉️ Email: zerodayvibe@gmail.com</p>
+            <p>📍 Location: Khulna-9100, Bangladesh</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
