@@ -7,6 +7,15 @@
     <title>ZeroDayVibe | Expert Cybersecurity Services</title>
     <style>
         body { font-family: 'Segoe UI', sans-serif; background-color: #050d1a; color: #fff; margin: 0; line-height: 1.6; }
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G4RQTK69B6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G4RQTK69B6');
+</script>
         
         /* Top Bar */
         .top-bar { background: #00ff41; padding: 8px 20px; display: flex; justify-content: space-between; align-items: center; color: #000; font-weight: bold; }
