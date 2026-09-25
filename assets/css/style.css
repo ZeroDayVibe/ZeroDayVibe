@@ -59,19 +59,24 @@ button,input,textarea,select{font:inherit}
   font-size:16px;
 }
 
-.contact-details,.social-links{
+.contact-details,
+.social-links{
   display:flex;
   align-items:center;
   gap:24px;
   flex-wrap:wrap;
 }
 
-.contact-details a,.social-links a{
+.contact-details a,
+.social-links a{
   color:#aebbc3;
   transition:.25s ease;
 }
 
-.contact-details a:hover,.social-links a:hover{color:var(--accent)}
+.contact-details a:hover,
+.social-links a:hover{
+  color:var(--accent);
+}
 
 /* HEADER */
 .site-header{
@@ -87,9 +92,9 @@ button,input,textarea,select{font:inherit}
   z-index:100;
 }
 
-/* LOGO - BIGGER */
+/* LOGO - EXTRA LARGE */
 .site-header .brand-logo{
-  width:230px;
+  width:270px;
   height:110px;
   display:flex;
   align-items:center;
@@ -103,8 +108,8 @@ button,input,textarea,select{font:inherit}
 
 .site-header .brand-logo img{
   display:block;
-  width:220px;
-  height:105px;
+  width:260px;
+  height:108px;
   max-width:none;
   max-height:none;
   object-fit:contain;
@@ -132,14 +137,17 @@ button,input,textarea,select{font:inherit}
   gap:34px;
 }
 
-.nav > a,.nav .nav-parent{
+.nav > a,
+.nav .nav-parent{
   color:#aebbc3;
   font-size:16px;
   white-space:nowrap;
   transition:.25s ease;
 }
 
-.nav > a:hover,.nav .nav-parent:hover,.nav > a.active{
+.nav > a:hover,
+.nav .nav-parent:hover,
+.nav > a.active{
   color:#fff;
 }
 
@@ -229,7 +237,8 @@ button,input,textarea,select{font:inherit}
 }
 
 /* HERO / PAGE HERO */
-.hero,.page-hero{
+.hero,
+.page-hero{
   position:relative;
   overflow:hidden;
   border-bottom:1px solid var(--line);
@@ -376,13 +385,17 @@ button,input,textarea,select{font:inherit}
 }
 
 /* SERVICE / PROJECT / ARTICLE */
-.service-grid,.project-grid,.article-grid{
+.service-grid,
+.project-grid,
+.article-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
   gap:14px;
 }
 
-.service-card,.project-card,.article{
+.service-card,
+.project-card,
+.article{
   background:var(--panel);
   border:1px solid var(--line);
   border-radius:var(--radius);
@@ -424,7 +437,8 @@ button,input,textarea,select{font:inherit}
   margin:0 0 20px;
 }
 
-.learn,.text-link{
+.learn,
+.text-link{
   color:var(--accent);
   font-size:13px;
   font-weight:700;
@@ -468,7 +482,8 @@ button,input,textarea,select{font:inherit}
   margin:0 0 5px;
 }
 
-.project-info p,.article p{
+.project-info p,
+.article p{
   color:var(--muted);
   font-size:13px;
   margin:0;
@@ -488,7 +503,9 @@ button,input,textarea,select{font:inherit}
 }
 
 /* SPLIT / CONTENT */
-.split,.content-grid,.contact-grid{
+.split,
+.content-grid,
+.contact-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
   gap:80px;
@@ -537,7 +554,8 @@ button,input,textarea,select{font:inherit}
   margin-top:35px;
 }
 
-.prose p,.prose li{
+.prose p,
+.prose li{
   color:#a6b4bc;
 }
 
@@ -637,7 +655,9 @@ button,input,textarea,select{font:inherit}
   color:#93a3ab;
 }
 
-.field input,.field textarea,.field select{
+.field input,
+.field textarea,
+.field select{
   width:100%;
   background:#080e13;
   border:1px solid #1e2a31;
@@ -647,7 +667,8 @@ button,input,textarea,select{font:inherit}
   outline:none;
 }
 
-.field input::placeholder,.field textarea::placeholder{
+.field input::placeholder,
+.field textarea::placeholder{
   color:#62737d;
 }
 
@@ -656,7 +677,9 @@ button,input,textarea,select{font:inherit}
   resize:vertical;
 }
 
-.field input:focus,.field textarea:focus,.field select:focus{
+.field input:focus,
+.field textarea:focus,
+.field select:focus{
   border-color:#3c6b5a;
 }
 
@@ -813,11 +836,19 @@ button,input,textarea,select{font:inherit}
 
 /* RESPONSIVE */
 @media(max-width:1100px){
-  .nav{gap:22px}
-  .nav>a,.nav .nav-parent{font-size:14px}
+
+  .nav{
+    gap:22px;
+  }
+
+  .nav>a,
+  .nav .nav-parent{
+    font-size:14px;
+  }
 }
 
 @media(max-width:900px){
+
   .site-ribbon{
     justify-content:space-between;
   }
@@ -841,12 +872,12 @@ button,input,textarea,select{font:inherit}
 
   /* TABLET LOGO */
   .site-header .brand-logo{
-    width:155px;
+    width:170px;
     height:82px;
   }
 
   .site-header .brand-logo img{
-    width:150px;
+    width:165px;
     height:78px;
   }
 
@@ -943,6 +974,7 @@ button,input,textarea,select{font:inherit}
 }
 
 @media(max-width:560px){
+
   .container{
     width:min(var(--max),calc(100% - 28px));
   }
@@ -958,12 +990,12 @@ button,input,textarea,select{font:inherit}
 
   /* MOBILE LOGO */
   .site-header .brand-logo{
-    width:135px;
+    width:145px;
     height:76px;
   }
 
   .site-header .brand-logo img{
-    width:130px;
+    width:140px;
     height:72px;
   }
 
