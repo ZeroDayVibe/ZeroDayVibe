@@ -604,3 +604,10 @@ header img,
   max-height: none !important;
   max-width: none !important;
 }
+.site-header .brand-logo img {
+  width: 200px !important;
+  max-width: none !important;
+  height: auto !important;
+  transform: scale(2.5); /* এটি লোগোটিকে জোরপূর্বক আড়াই গুণ বড় করে দেবে */
+  transform-origin: left center;
+}
